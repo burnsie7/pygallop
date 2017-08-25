@@ -1,0 +1,8 @@
+brew install cairo && brew install gtk+
+
+virtualenv -p python3 <desired-path>
+source <desired-path>/bin/activate
+pip3 install lxml
+pip3 install cairosvg
+pip3 install tinycss
+pip3 install cssselect
